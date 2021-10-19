@@ -6,6 +6,9 @@ RED='\033[0;31m'
 CYANBOLD='\033[1;36m'
 RESET='\033[0m'
 
+chmod 777 /dev/dri/card0
+chmod 777 /dev/dri/renderD128
+
 CONFIG_DIR="/config"
 OLD_CONFIG="/config/Plex Media Server"
 
